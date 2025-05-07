@@ -1,6 +1,6 @@
 -- SQL script to insert 30 students into the users table
 
-INSERT INTO users (studentId, studentName, email, passwordHash, role, "createdAt", "updatedAt")
+INSERT INTO users (studentId, studentName, email, passwordHash, role, "created_at", "updated_at")
 VALUES
 ('S1001', 'Student 1', 'student1@example.com', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8v1Z6q6v6Z6q6v6Z6q6v6Z6q6v6Z6q', 'member', NOW(), NOW()),
 ('S1002', 'Student 2', 'student2@example.com', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8v1Z6q6v6Z6q6v6Z6q6v6Z6q6v6Z6q', 'member', NOW(), NOW()),
